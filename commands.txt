@@ -1,0 +1,8 @@
+Ffmpeg option commands
+.ts to .mp4 - ffmpeg -i *pathtovideo
+.webm to .mp4 - ffmpeg -i *inputfile *outfile
+.opus to .mp3 - ffmpeg -i *inputfile -ab 320k *outfile
+
+yt-dlp option commands
+.webm to .mp4 - ffmpeg -i *inputfile *outfile
+.opus to .mp3 - ffmpeg -i *inputfile -ab 320k *outfile

@@ -35,4 +35,20 @@ struct Menu {
 
 	    return choice;
     }
+    static int DownloadMenu() {
+    	int choice {0};
+
+	    std::cout << "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+" << std::endl;
+	    std::cout << "|      > Download w/YTDLP <      |" << std::endl;
+	    std::cout << "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+" << std::endl;
+	    std::cout << " " << std::endl;
+	    std::cout << "  ~ 1. Audio" << std::endl;
+	    std::cout << "  ~ 2. Video" << std::endl;
+	    std::cout << "  ~ 0. Go back." << std::endl;
+	    std::cout << " " << std::endl;
+	    std::cout << " >>> Choose option: ";
+	    std::cin >> choice;
+
+	    return choice;
+    }
 };
